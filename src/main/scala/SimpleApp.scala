@@ -8,7 +8,7 @@ import org.apache.spark.SparkConf
   */
 object SimpleApp {
   def main(args: Array[String]) {
-    val conf = new SparkConf().setAppName("Simple Application").setMaster("spark://localhost:7077")
+    val conf = new SparkConf().setAppName("Simple Application").setMaster("local")
     val sc = new SparkContext(conf)
     val input = sc.textFile("in.txt")
     //var arr = ArrayBuffer.empty[Int]
