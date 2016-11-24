@@ -1,3 +1,3 @@
-# Regression_Analysis_Sample in Scala, Python & R
+# Regression Analysis basic logic implementation
 
 Run sbt run to run appliction
